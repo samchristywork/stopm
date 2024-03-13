@@ -12,6 +12,19 @@ configuration). Afterwards, the script lists all installed packages. Finally,
 it clones the GitHub repository specified by the command line arguments into
 the `pack` directory.
 
+## Setup
+
+To use the script, you clone this repository and move `stopm.sh` into the root
+of your Vim/NeoVim configuration:
+
+```bash
+git clone https://github.com/samchristywork/stopm
+mv stopm/stopm.sh ~/path/to/config
+```
+
+You can then run the script with `./stopm.sh` from inside your Vim/NeoVim
+configuration directory.
+
 ## Usage
 
 To add a new package (Vim plugin), you must provide the GitHub username and
