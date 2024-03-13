@@ -38,6 +38,25 @@ For example:
 
 This will add `vim-surround` from user `tpope` to your Vim plugins.
 
+## Requirements
+
+```
+bash
+git
+vim or neovim
+```
+
+## Important Tips
+
+- Make sure you create a `pack` directory in the root of your Vim configuration
+  before running this script.
+
+- Always run the script within the root of your Vim configuration directory.
+
+- The bash script automatically clones the repository from GitHub into the
+  correct location in your `pack` directory - it will create a new
+  `user/start/package` directory structure.
+
 ## Limitations
 
 Only GitHub repositories are supported. If you need a repository from some
