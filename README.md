@@ -1,4 +1,8 @@
+![Banner](https://s-christy.com/sbs/status-banner.svg?icon=package_2.svg&hue=250&title=STOPM&description=What%20if%20managing%20packages%20for%20your%20text%20editor%20was%20simple%3F)
+
 ## Overview
+
+<b>STOPM - Sam's Totally Obvious Package Manager</b>
 
 This is a very simple package manager for Vim/NeoVim plugins. The provided Bash
 script allows you to easily clone Vim plugins from GitHub directly into the
@@ -11,6 +15,17 @@ If not, it asks you to create one (hint: it should be in the root of your Vim
 configuration). Afterwards, the script lists all installed packages. Finally,
 it clones the GitHub repository specified by the command line arguments into
 the `pack` directory.
+
+## Features
+
+- Works for both Vim and NeoVim.
+- Extremely easy to understand.
+- Creates a list of all installed repositories.
+- Has built-in error handling.
+- Easy to install/set up.
+- Installs Vim/NeoVim packages in just one command.
+- Can install most, if not all Vim/NeoVim packages on GitHub.
+- Only 28 lines of code for maximum simplicity.
 
 ## Setup
 
